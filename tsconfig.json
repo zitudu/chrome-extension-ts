@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ES6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,  // 暂时关闭严格模式
+    "noImplicitAny": false,  // 允许隐式 any
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["chrome"],
+    "module": "esnext",
+    "declaration": false,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*",
+    "src/types/**/*",  // 包含类型文件
+    "manifest.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

@@ -1,0 +1,44 @@
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.app h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.counter {
+  margin-top: 20px;
+}
+
+.counter h3 {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
